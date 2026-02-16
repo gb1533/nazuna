@@ -114,13 +114,13 @@ ensureJsonFileExists(DONO_DIVULGACAO_FILE, {
   createdAt: new Date().toISOString()
 });
 ensureJsonFileExists(MENU_DESIGN_FILE, {
-  header: `╭┈⊰ 🌸 『 *{botName}* 』\n┊Olá, {userName}!\n╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯`,
+  header: `╭┈⊰ ܓܓܛܓ 『 *{botName}* 』\n┊Olá, {userName}!\n╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯`,
   menuTopBorder: "╭┈",
   bottomBorder: "╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯",
-  menuTitleIcon: "🍧ฺꕸ▸",
-  menuItemIcon: "•.̇𖥨֗🍓⭟",
-  separatorIcon: "❁",
-  middleBorder: "┊"
+  menuTitleIcon: "ܓܓܛܓ▸",
+  menuItemIcon: "ܓܓܛܓ▸",
+  separatorIcon: "ܓܓܛܓ",
+  middleBorder: "ܓܓܛܓ"
 });
 ensureJsonFileExists(ECONOMY_FILE, {
   users: {},
