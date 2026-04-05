@@ -4,11 +4,11 @@ import { groupVipCommandsByCategory, getVipStats } from '../utils/vipCommandsMan
  * Gera o menu VIP dinamicamente baseado nos comandos cadastrados
  */
 async function menuVIP(prefix, botName = "MeuBot", userName = "Usuário", {
-  header = `╭┈⊰ 🌸 『 *${botName}* 』\n┊Olá, #user#!\n╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯`,
+  header = `╭┈⊰  『 *${botName}* 』\n┊Olá, #user#!\n╰─┈┈┈┈┈◜†◞┈┈┈┈┈─╯`,
   menuTopBorder = "╭┈",
-  bottomBorder = "╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯",
-  menuItemIcon = "•.̇𖥨֗🍓⭟",
-  separatorIcon = "❁",
+  bottomBorder = "╰─┈┈┈┈┈◜⁶⁷◞┈┈┈┈┈─╯",
+  menuItemIcon = "•ﾠ⭟",
+  separatorIcon = "†",
   middleBorder = "┊"
 } = {}) {
   try {
