@@ -1,7 +1,7 @@
 export default async function menu(prefix, botName = "MeuBot", userName = "Usuário", {
     header = `╭┈⊰ † 『 *${botName}* 』\n┊Olá, #user#!\n╰─┈┈┈┈┈◜†◞┈┈┈┈┈─╯`,
     menuTopBorder = "╭┈",
-    bottomBorder = "╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯",
+    bottomBorder = "╰─┈┈┈┈┈◜⁶⁷◞┈┈┈┈┈─╯",
     menuTitleIcon = "•ﾠꕸ▸",
     menuItemIcon = "•ﾠ⭟",
     separatorIcon = "†",
