@@ -57,10 +57,10 @@ ${bottomBorder}
 }
 
 async function menuVIPInfo(prefix, botName = "MeuBot", userName = "Usuário", {
-  header = `╭┈⊰ 🌸 『 *${botName}* 』\n┊Olá, #user#!\n╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯`,
+  header = `╭┈⊰ 『 *${botName}* 』\n┊Olá, #user#!\n╰─┈┈┈┈┈◜†◞┈┈┈┈┈─╯`,
   menuTopBorder = "╭┈",
-  bottomBorder = "╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯",
-  separatorIcon = "❁",
+  bottomBorder = "╰─┈┈┈┈┈◜⁶⁷◞┈┈┈┈┈─╯",
+  separatorIcon = "†",
   middleBorder = "┊"
 } = {}) {
   const stats = getVipStats();
