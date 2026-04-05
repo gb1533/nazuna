@@ -1,10 +1,10 @@
 export default async function menu(prefix, botName = "MeuBot", userName = "Usuário", {
-    header = `╭┈⊰ 🌸 『 *${botName}* 』\n┊Olá, #user#!\n╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯`,
+    header = `╭┈⊰ † 『 *${botName}* 』\n┊Olá, #user#!\n╰─┈┈┈┈┈◜†◞┈┈┈┈┈─╯`,
     menuTopBorder = "╭┈",
     bottomBorder = "╰─┈┈┈┈┈◜❁◞┈┈┈┈┈─╯",
-    menuTitleIcon = "🍧ฺꕸ▸",
-    menuItemIcon = "•.̇𖥨֗🍓⭟",
-    separatorIcon = "❁",
+    menuTitleIcon = "•ﾠꕸ▸",
+    menuItemIcon = "•ﾠ⭟",
+    separatorIcon = "†",
     middleBorder = "┊"
 } = {}) {
     const formattedHeader = header.replace(/#user#/g, userName);
